@@ -1025,6 +1025,39 @@ body {
     }
 }
 
+@media (min-width: 1920px) and (max-width: 2200px){
+
+    .overlay-9 {
+        top: 130px;
+        left: 495px;
+        width: 50%;
+        height: 75%;
+        background: url(assets/bottomline.png) no-repeat center;
+        background-size: contain;
+        z-index: 1;
+    }
+
+    .overlay-10 {
+        top: -50px;
+        left: 415px;
+        width: 50%;
+        height: 75%;
+        background: url(assets/topline.png) no-repeat center;
+        background-size: contain;
+        z-index: 1;
+    }
+
+    .overlay-11 {
+        top: 158px;
+        left: 434px;
+        width: 59%;
+        height: 60%;
+        background: url(assets/curve.png) no-repeat center;
+        background-size: contain;
+        z-index: 1;
+    }
+}
+
 @media (min-width: 2560px) {
     .overlay-7 {
         top: -20px;
