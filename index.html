@@ -79,7 +79,8 @@
                 style="background: url(assets/AdobeStock_570844739-Photoroom\ 1.png); background-size: cover; background-repeat: no-repeat;">
                 <div class="overlay position-absolute"></div>
                 <div class="z-2 text-center position-relative d-flex justify-content-center align-items-center">
-                    <img src="assets/AdobeStock_277436166-Photoroom.png" style="min-width: 100px; max-height: 400px;">
+                    <img src="assets/AdobeStock_277436166-Photoroom.png" loading="lazy"
+                        style="min-width: 100px; max-height: 400px;">
                 </div>
             </div>
             <div class="p-3" style="background: #F5F5F5 ;">
@@ -577,7 +578,6 @@
 
 
     <footer>
-        <!-- place footer here -->
     </footer>
 </body>
 
@@ -601,11 +601,11 @@
     });
     $(document).ready(function () {
         $('.nav-link').on('click', function () {
-            $('.nav-link').removeClass('active'); 
-            $(this).addClass('active'); 
+            $('.nav-link').removeClass('active');
+            $(this).addClass('active');
         });
 
-       
+
         $('.nav-link').each(function () {
             if (this.href === window.location.href) {
                 $(this).addClass('active');
