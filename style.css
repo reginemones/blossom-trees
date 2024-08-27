@@ -994,16 +994,6 @@ body {
         order: 4;
     }
 
-    .overlay-10 {
-        top: -50px;
-        left: 200px;
-        width: 68%;
-        height: 75%;
-        background: url(assets/topline.png) no-repeat center;
-        background-size: contain;
-        z-index: 1;
-    }
-
     .overlay-9 {
         top: 120px;
         left: 240px;
@@ -1014,11 +1004,74 @@ body {
         z-index: 1;
     }
 
+    .overlay-10 {
+        top: -50px;
+        left: 200px;
+        width: 68%;
+        height: 75%;
+        background: url(assets/topline.png) no-repeat center;
+        background-size: contain;
+        z-index: 1;
+    }
+
     .overlay-11 {
         top: 20px;
         left: 228px;
         width: 78%;
         height: 78%;
+        background: url(assets/curve.png) no-repeat center;
+        background-size: contain;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 2560px) {
+    .overlay-7 {
+        top: -20px;
+        left: 0;
+        width: 100%;
+        height: 60%;
+        background: url(assets/Group\ 315.png) no-repeat center center;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .overlay-8 {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: url(assets/Group\ 315.png) no-repeat center center;
+        background-size: cover;
+        transform: scaleY(-1);
+        z-index: 1;
+    }
+
+    .overlay-9 {
+        top: 390px;
+        left: 810px;
+        width: 39%;
+        height: 40%;
+        background: url(assets/bottomline.png) no-repeat center;
+        background-size: contain;
+        z-index: 1;
+    }
+
+    .overlay-10 {
+        top: 210px;
+        left: 740px;
+        width: 38%;
+        height: 40%;
+        background: url(assets/topline.png) no-repeat center;
+        background-size: contain;
+        z-index: 1;
+    }
+
+    .overlay-11 {
+        top: 230px;
+        left: 800px;
+        width: 44%;
+        height: 50%;
         background: url(assets/curve.png) no-repeat center;
         background-size: contain;
         z-index: 1;
